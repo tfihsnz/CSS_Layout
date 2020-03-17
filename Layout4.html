@@ -12,72 +12,144 @@
             
             #container {
                 margin: auto;
-                max-width: 800px;  
-                
+                max-width: 800px;     
             }
             
-            #blue {
+            .blueRules {
+                padding: 20px;
                 background-color: blue;
-                display: grid;
-                
             }
             
-            #red {
+            .redRules {
                 background-color: red;
+                padding: 20px;
+            }
+            
+            .yellowRules {
+                background-color: yellow;
+                margin: 10px;
+            }
+            
+            #blue1 {
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr;
+                height: 50px;
                 
             }
             
-            .yellow {
-                background-color: yellow;
+            #blue2 {
+                height: 600px;
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr 1fr;
+            }
+            
+            #red1 {
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr;
+                height: 350px;
+            }
+            
+            #red2 {
+                height: 400px;
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr;
+            }
+            
+            #yellow1 {     
+                grid-column: 1;  
+            }
+            
+            #yellow2 {
+                grid-column: 2/4;
                 
+            }
+            
+            #yellow3 {
+                grid-column: 1/4;
+                height: 100px;
+            }
+            
+            #yellow4 {
+                height:200px;
+            }
+            
+            #yellow5 {
+                height:350px;
+            }
+            
+            #yellow6 {
+                grid-column: 1/4;
+                height: 50px;
+            }
+            
+            #yellow7 {
+                grid-column: 1/3;
+                height: 300px
+            }
+            
+            #yellow8 {
+                height:200px;
+            }
+            
+            #yellow9 {
+                grid-column: 1/5;
+                height: 80px
+            }
+            
+            #yellow10 {
+                height: 150px
             }
             
             #green {
+                padding: 20px;
                 background-color: lime;
-                
+                height: 500px;
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr;
             }
         </style>
     </head>
 
     <body>
         <div id="container">
-            <div id="blue">
-                <div class="yellow"></div>
-                <div class="yellow"></div>
+            <div id="blue1" class="blueRules">
+                <div id="yellow1" class="yellowRules"></div>
+                <div id="yellow2" class="yellowRules"></div>
             </div>
             <div id="green"></div>
-            <div id="red">
-                <div class="yellow"></div>
-                <div class="yellow"></div>
-                <div class="yellow"></div>
+            <div id="red1" class="redRules">
+                <div id="yellow3" class="yellowRules"></div>
+                <div id="yellow4" class="yellowRules"></div>
+                <div id="yellow4" class="yellowRules"></div>
+                <div id="yellow4" class="yellowRules"></div>
             </div>
-            <div id="blue">
-                <div class="yellow"></div>
-                <div class="yellow"></div>
-                <div class="yellow"></div>
-                <div class="yellow"></div>
-                <div class="yellow"></div>
-                <div class="yellow"></div>
-                <div class="yellow"></div>
-                <div class="yellow"></div>
-                <div class="yellow"></div>
-                <div class="yellow"></div>
-                <div class="yellow"></div>
-                <div class="yellow"></div>
-                <div class="yellow"></div>
+            <div id="blue2" class="blueRules">
+                <div id="yellow9" class="yellowRules"></div>
+                <div id="yellow10" class="yellowRules"></div>
+                <div id="yellow10" class="yellowRules"></div>
+                <div id="yellow10" class="yellowRules"></div>
+                <div id="yellow10" class="yellowRules"></div>
+                <div id="yellow10" class="yellowRules"></div>
+                <div id="yellow10" class="yellowRules"></div>
+                <div id="yellow10" class="yellowRules"></div>
+                <div id="yellow10" class="yellowRules"></div>
+                <div id="yellow10" class="yellowRules"></div>
+                <div id="yellow10" class="yellowRules"></div>
+                <div id="yellow10" class="yellowRules"></div>
+                <div id="yellow10" class="yellowRules"></div>
             </div>
             <div id="green">
-                <div class="yellow"></div>
-                <div class="yellow"></div>
-                <div class="yellow"></div>
-                <div class="yellow"></div>
+                <div id="yellow3" class="yellowRules"></div>
+                <div id="yellow5" class="yellowRules"></div>
+                <div id="yellow5" class="yellowRules"></div>
+                <div id="yellow5" class="yellowRules"></div>
             </div>
-            <div id="red">
-                <div class="yellow"></div>
-                <div class="yellow"></div>
-                <div class="yellow"></div>
+            <div id="red2" class="redRules">
+                <div id="yellow6" class="yellowRules"></div>
+                <div id="yellow7" class="yellowRules"></div>
+                <div id="yellow8" class="yellowRules"></div>
             </div>
-            <div id="blue"></div>
+            <div id="blue1" class="blueRules"></div>
         </div>
     </body>
     
